@@ -43,7 +43,7 @@ footer {
 
 .marble {
     height: 2rem;
-    background-image: url('static/Texturelabs_Stone_160XL.png');
+    background-image: url('Texturelabs_Stone_160XL.png');
     object-fit: cover;
     border-top: 6px;
     border-color: black;
@@ -51,7 +51,7 @@ footer {
 }
 .secondMarble {
     height: 0.7rem;
-    background-image: url('static/Texturelabs_Stone_160XL.png');
+    background-image: url('Texturelabs_Stone_160XL.png');
     object-fit: cover;
     border-top: 3px;
     border-color: rgb(133, 130, 130);
