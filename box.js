@@ -37,7 +37,8 @@ fetch("https://wordoftheday.freeapi.me/")
     .then(response => response.json())
     .then(data => {
         const wordOfTheDay = data.word;
-        return fetch(`https://collectionapi.metmuseum.org/public/collection/v1/search?q=${wordOfTheDay}&hasImages=true`);
+        console.log(wordOfTheDay);
+        return fetch(`https://collectionapi.metmuseum.org/public/collection/v1/search?q=${wordOfTheDay}&hasImages=true&isHighlight=true`);
     })
     .then(response => response.json())
     .then(data2 => {
