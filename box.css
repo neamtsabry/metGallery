@@ -1,0 +1,59 @@
+body{
+    background-color: #536575;
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    place-items: center;
+    /* position: relative; */
+}
+.border{
+    background-color: #372512;
+    padding: 10px;
+}
+.padding{
+    background-color: #5c3f1f;
+    padding: 10px;
+}
+.content{
+    background-color: #aa753b;
+    padding: 10px;
+}
+#metImg {
+    max-height: 550px;
+}
+#inputs{
+    display: flex;
+    flex-direction: row;
+}
+#sliders{
+    margin-right: 30px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+}
+
+.marble {
+    height: 2rem;
+    background-image: url('static/Texturelabs_Stone_160XL.png');
+    object-fit: cover;
+    border-top: 6px;
+    border-color: black;
+    border-style: solid;
+}
+.secondMarble {
+    height: 0.7rem;
+    background-image: url('static/Texturelabs_Stone_160XL.png');
+    object-fit: cover;
+    border-top: 3px;
+    border-color: rgb(133, 130, 130);
+    border-style: solid;
+}
